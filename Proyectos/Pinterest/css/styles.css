@@ -15,11 +15,52 @@ main{
 section{
     padding: 30px; 
     width: 100%;
+    
 }
+
 
 img{
     width: 100%;
+    position: relative;
+    background-color: none;
+    border-radius: 10%;
+    border: none;
+    cursor: pointer;
+
 }
+
+img:hover{filter: contrast(60%);
+    
+}
+
+
+.guardar {
+font-family: sans-serif;
+font-size: 14px;
+font-weight: bolder;
+text-align: center;
+color: white;
+opacity: 0;
+width: 70px;
+height: 40px;
+border-bottom: initial;
+border-radius: 45%;
+background-color: red;
+position: relative;
+bottom: 360px;
+left: 380px;
+cursor: pointer;
+}
+
+
+p{
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align:justify;
+}
+
+
 
 h1{
     position: relative;
@@ -37,7 +78,6 @@ header{
 }
 
 .logo-img{
-  
     width: 30px;
     padding: 0px;
     position: relative;
@@ -174,6 +214,12 @@ header{
     border-radius: 15px;
     border: 1px;
     align-content: center;
-    flex-shrink: 10;
+    
     
 }
+
+/* MEDIA QUERIES */
+
+
+
+
